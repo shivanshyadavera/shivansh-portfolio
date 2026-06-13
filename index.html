@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SHIVANSH — Creator, Video Editor & Builder</title>
+  <meta name="description"
+    content="Personal portfolio and journey of Shivansh: engineering student, video editor, creator, and builder. Documenting the intersection of storytelling, technology, and engineering." />
+
+  <!-- Google Fonts: Geist Sans & Geist Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..800&family=Geist:wght@100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress" class="scroll-progress"></div>
+
+  <!-- Moving Film Grain Overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="header-container">
+      <nav class="nav">
+        <a href="#work" class="nav-link" id="link-work">Work</a>
+        <a href="#about" class="nav-link" id="link-about">About</a>
+        <a href="#contact" class="nav-link" id="link-contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <video class="hero-bg-video" autoplay loop muted playsinline>
+        <source src="/assets/website%20video.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-container">
+        <h1 class="hero-title reveal visible"><span id="typing-hero"></span><span class="typebar">|</span></h1>
+        <div class="hero-roles reveal">
+          <span class="role-tag">Video Editor.</span>
+          <span class="role-tag">Content Creator.</span>
+          <span class="role-tag">Builder.</span>
+        </div>
+        <p class="hero-description reveal">
+          Currently working with clients as a Level 1 Seller on Fiverr while documenting my journey on youtube.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#work" class="btn btn-primary" id="btn-watch-work">Watch My Work</a>
+          <a href="#contact" class="btn btn-secondary" id="btn-hero-contact">Contact <span class="arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infinite Marquee Section -->
+    <section class="marquee-section">
+      <div class="marquee-wrapper">
+        <div class="marquee-content">
+          <span>CREATE • EDIT • BUILD • LEARN •&nbsp;</span>
+          <span>CREATE • EDIT • BUILD • LEARN •&nbsp;</span>
+          <span>CREATE • EDIT • BUILD • LEARN •&nbsp;</span>
+          <span>CREATE • EDIT • BUILD • LEARN •&nbsp;</span>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+          <span>CREATE • EDIT • BUILD • LEARN •&nbsp;</span>
+          <span>CREATE • EDIT • BUILD • LEARN •&nbsp;</span>
+          <span>CREATE • EDIT • BUILD • LEARN •&nbsp;</span>
+          <span>CREATE • EDIT • BUILD • LEARN •&nbsp;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Work Section -->
+    <section id="work" class="work-section">
+      <div class="work-container">
+        <h2 class="section-title reveal">Work</h2>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card reveal">
+            <a href="https://www.youtube.com/watch?v=m67ocfYPgO8" target="_blank" rel="noopener noreferrer">
+              <div class="project-image-container">
+                <img src="/assets/work-cinematic.png" alt="ACE Studio x Shivansh" class="project-image"
+                  loading="lazy" />
+              </div>
+            </a>
+            <div class="project-meta">
+              <span class="project-num">01 / BRAND COLLABS</span>
+              <h3 class="project-title">ACE Studio x Shivansh</h3>
+              <p class="project-desc">Made collab video for one of the most prominent AI brand named ACE Studio.</p>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal">
+            <a href="https://youtu.be/q9oVZnjiZ2Q" target="_blank" rel="noopener noreferrer">
+              <div class="project-image-container">
+                <img src="/assets/tech-cover.jpg" alt="Reimagining Tech Aesthetics hardware visual design"
+                  class="project-image" loading="lazy" />
+              </div>
+            </a>
+            <div class="project-meta">
+              <span class="project-num">02 / TECH EDITORIALS</span>
+              <h3 class="project-title">Reimagining Tech Aesthetics</h3>
+              <p class="project-desc">Showcase the beauty of tech and design in the most cinematic and creative way.</p>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal">
+            <a href="https://youtu.be/5mIIC2IFgwM" target="_blank" rel="noopener noreferrer">
+              <div class="project-image-container">
+                <img src="/assets/faceless-cover.png" alt="Developer tools software structure" class="project-image"
+                  loading="lazy" />
+              </div>
+            </a>
+            <div class="project-meta">
+              <span class="project-num">03 / FACELESS VIDEOS</span>
+              <h3 class="project-title">FACELESS VIDEOS FOR CLIENTS</h3>
+              <p class="project-desc">Made faceless videos for some FIVERR CLIENTS.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="about-container">
+        <p class="about-text reveal">
+          I'm <span class="highlight">Shivansh</span>. An engineering student obsessed with storytelling, video editing,
+          technology, and COFFEE.
+        </p>
+      </div>
+    </section>
+
+    <!-- Current Focus Section -->
+    <section class="focus-section">
+      <div class="focus-container">
+        <h2 class="focus-title reveal">Currently</h2>
+        <ul class="focus-list">
+          <li class="focus-item reveal">
+            <span class="focus-arrow">→</span> Editing Videos for clients
+          </li>
+          <li class="focus-item reveal">
+            <span class="focus-arrow">→</span> Creating Content on YouTube
+          </li>
+          <li class="focus-item reveal">
+            <span class="focus-arrow">→</span> Building Products with AI
+          </li>
+          <li class="focus-item reveal">
+            <span class="focus-arrow">→</span> Finishing Engineering (somehow)
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <h2 class="contact-headline reveal">Let's Build Something.</h2>
+
+        <div class="contact-methods reveal">
+          <a href="mailto:contactshivanshfilms@gmail.com" class="contact-link email-link" id="contact-email">
+            <span class="link-label">Email</span>
+            <span class="link-value">contactshivanshfilms@gmail.com</span>
+          </a>
+          <div class="social-links">
+            <a href="https://www.youtube.com/@Shivansh.connect" target="_blank" rel="noopener noreferrer"
+              class="social-link" id="contact-youtube">
+              <span>YouTube</span>
+              <span class="arrow-up">↗</span>
+            </a>
+            <a href="https://www.instagram.com/shivansh.connect" target="_blank" rel="noopener noreferrer"
+              class="social-link" id="contact-instagram">
+              <span>Instagram</span>
+              <span class="arrow-up">↗</span>
+            </a>
+            <a href="https://www.linkedin.com/in/shivansh-kumar-6720732b6/?skipRedirect=true" target="_blank"
+              rel="noopener noreferrer" class="social-link" id="contact-linkedin">
+              <span>LinkedIn</span>
+              <span class="arrow-up">↗</span>
+            </a>
+            <a href="https://www.fiverr.com/s/LdwPbbY" target="_blank" rel="noopener noreferrer" class="social-link"
+              id="contact-fiverr">
+              <span>Fiverr</span>
+              <span class="arrow-up">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p>&copy; 2026 SHIVANSH. All rights reserved.</p>
+      <p class="footer-mono">STAY INTENTIONAL.</p>
+    </div>
+  </footer>
+
+  <!-- JS entrypoint -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
